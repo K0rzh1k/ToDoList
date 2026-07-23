@@ -10,7 +10,7 @@ This project was created as part of my Python learning journey.
   - Russian
   - English
   - German
-- ➕ Create new tasks
+- Create new tasks
 - Display all tasks
 - Delete tasks
 - Console interface
