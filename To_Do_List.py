@@ -42,14 +42,12 @@ def main_ru():
         choice = input("\nвыбери что ты хочешь сделать:\n\n[1] добавить задачи\n[2] показать задачи\n[3] удалить задачу\n\nваш ответ: ")
         if choice == "1":
             new_task_ru()
+        elif choice == "2":
+            show_tasks_ru()
+        elif choice == "3":
+            delete_task_ru()
         else:
-            if choice == "2":
-                show_tasks_ru()
-            else:
-                if choice == "3":
-                    delete_task_ru()
-                else:
-                    break
+            break
 
 def delete_task_en():
     task = input("\nenter the task to delete: ")
@@ -76,14 +74,12 @@ def main_en():
         choice = input("\nchoose what you want to do:\n\n[1] create a task\n[2] show tasks\n[3] delete a task\n\nyour answer: ")
         if choice == "1":
             new_task_en()
+        elif choice == "2":
+            show_tasks_en()
+        elif choice == "3":
+            delete_task_en()
         else:
-            if choice == "2":
-                show_tasks_en()
-            else:
-                if choice == "3":
-                    delete_task_en()
-                else:
-                    break
+            break
 
 def delete_task_de():
     task = input("\ngib die Aufgabe zum Löschen ein: ")
@@ -110,13 +106,11 @@ def main_de():
         choice = input("\nwählen Sie, was Sie tun möchten:\n\n[1] eine Aufgabe erstellen\n[2] Aufgaben anzeigen\n[3] eine Aufgabe löschen\n\nIhre Antwort: ")
         if choice == "1":
             new_task_de()
+        elif choice == "2":
+            show_tasks_de()
+        elif choice == "3":
+            delete_task_de()
         else:
-            if choice == "2":
-                show_tasks_de()
-            else:
-                if choice == "3":
-                    delete_task_de()
-                else:
-                    break
+            break
 
 select_language()
