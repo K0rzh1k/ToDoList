@@ -42,6 +42,7 @@ During this project I practiced:
 - Code organization
 - Creating menu-driven programs
 - Supporting multiple languages in one application
+- Refactoring code to improve readability
 
 ## Future Improvements
 
@@ -49,7 +50,7 @@ During this project I practiced:
 - Mark tasks as completed
 - Edit existing tasks
 - Number tasks automatically
-- Improve menu navigation
+- Improve input validation
 - Refactor the code to remove duplicated functions for different languages
 
 ## Author
